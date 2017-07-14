@@ -1,0 +1,19 @@
+Input_Size	Initial_Order	Has_Duplicates	Number_of_runs	Avg_Time_for_usel	Avg_Time_for_sort
+5000		random			no				3				0.041				0.010		
+5000		sorted			no				3				0.062				0.008
+5000		reverse			no				3				0.007				0.008
+5000		random			yes				3				0.044				0.010
+5000		sorted			yes				3				0.067				0.008
+5000		reverse			yes				3				0.008				0.008
+10000		random			no				3				0.143				0.015
+10000		sorted			no				3				0.201				0.012
+10000		reverse			no				3				0.199				0.013
+10000		random			yes				3				0.161				0.015
+10000		sorted			yes				3				0.230				0.012
+10000		reverse			yes				3				0.234				0.013
+
+
+A surprising observation was that reversed lists took less time to be sorted with our algorithm compared to an already sorted list. Evidently, something was atypical in the nature of our sort conditions.
+
+It is clear that our link-list sort is not a very efficient (especially with large inputs) sorting algoritm, when compared to the standard unix one.
+
